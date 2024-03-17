@@ -1,0 +1,28 @@
+crear proyecto
+npx create-app-next@latest auth-next
+
+instalar prisma 
+npm i prisma -D
+
+correr 
+npx prisma init       
+esto crea la carpeta prisma y al np pasar mas parametros crea un postgres automaticamente
+
+cree mi cuenta en neon.tech obtuve el string de coneccion
+cree el model en mi codigo 
+
+y corri npx prisma migrate dev --name init 
+
+esto creara la tabla en bd en neon
+
+crear libs prisma y copiar el cdoigo que da al ingresar en google chorme prisma next best practices
+
+en mis actions llamo a la carpeta api y las rutas para crear por ejemplo crear usuario 
+en la api hay una funcion POST entonces hago el fetch a esta api al igual que un endpoint en mi action 
+para realizar la tarea 
+
+instalar bcrypt y sus types para hashwar pass
+
+hasta aca con el registro falto ver jwt
+
+intalar i next-auth
